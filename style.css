@@ -1,0 +1,56 @@
+body {
+  font-family: Audiowide;
+}
+#rox-info {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+#menu-bottom {
+  position:absolute;
+  display: -webkit-flex;
+  display: flex;
+  bottom: 0px;
+  width:100%;
+
+}
+#rox-types {
+  position:relative;
+  display:block;
+  min-height: 55vw;
+}
+#img-rox-types {
+  width: 100%;
+}
+#rox-buttons {
+  position:absolute;
+  display: inline;
+  bottom: 0px;
+  width: 100%;
+}
+.menu-button {
+  flex-grow:1;
+  height:80px;
+  margin:10px;
+  background-color: #00D358;
+  margin-right: 0px;
+  border: none;
+}
+.arrow-button {
+  display:inline;
+  width: 48%;
+  height: 110px;
+  background-color:#ff3333;
+  border:none;
+}
+.arrow-image {
+  width:40%;
+}
+#arrow-buttons {
+  top:68%;
+  position:absolute;
+}
+button:hover {
+  background-image: url("http://media.giphy.com/media/kkoRgXbTCPY3K/giphy.gif");
+}
