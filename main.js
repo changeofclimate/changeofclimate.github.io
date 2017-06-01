@@ -1,6 +1,6 @@
 var scween = 0;
 var glacier = 0;
-var urls = ["http://eoimages.gsfc.nasa.gov/images/imagerecords/5000/5668/glacier_4up.jpg", "https://www.nps.gov/olym/learn/nature/images/Lillian-Glacier-1905-2010-pair_1.jpg", "http://climate.nasa.gov/system/downloadable_items/38_4_c365-6-l.jpg", "http://www.wrd.org/engineering/images/climate-change-glaciers.jpg", "http://glacierchange.org/wp-content/uploads/2011/03/mendenhall_thndr-view_1993-2010-780x389.jpg"]
+var urls = []
 
 function ge(t) {
   return document.getElementById(t);
@@ -35,7 +35,6 @@ setInterval(function() {
 
 onClick("button-home",function(){scween=0});
 onClick("button-glaciers",function(){scween=1});
-onClick("button-quiz",function(){scween=2});
 onClick("button-presentation",function(){scween=3});
 onClick("button-left",function() {
   if(glacier>0)glacier-=1;

@@ -1,5 +1,5 @@
 body {
-  font-family: Audiowide;
+  font-family: Candal;
 }
 #rox-info {
   text-align: justify;
@@ -12,6 +12,7 @@ body {
   display: -webkit-flex;
   display: flex;
   bottom: 0px;
+  left: -0.5%;
   width:100%;
 
 }
@@ -38,18 +39,23 @@ body {
   border: none;
 }
 .arrow-button {
+  flex-grow: 1;
   display:inline;
-  width: 48%;
+  /*width: 48%;*/
   height: 110px;
   background-color:#ff3333;
   border:none;
+  margin: 5px;
 }
 .arrow-image {
   width:40%;
 }
+
 #arrow-buttons {
   top:68%;
   position:absolute;
+  display: flex;
+  display: -webkit-flex;
 }
 button:hover {
   background-image: url("http://media.giphy.com/media/kkoRgXbTCPY3K/giphy.gif");
