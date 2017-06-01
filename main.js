@@ -26,8 +26,9 @@ setInterval(function() {
   hide("climatechange-what");
   hide("glaciers-before");
   hide("presentation");
+  hide("solutions");
   if(scween==0)show("climatechange-what");
-  if(scween==1)show("glaciers-before");
+  if(scween==1)show("solutions");
   if(scween==2)show("quiz");
   if(scween==3)show("presentation");
   ge("glacier-main").src = urls[glacier];
